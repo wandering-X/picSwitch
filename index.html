@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>驾考团</title>
+	<link rel="stylesheet" type="text/css" href="css/switchPic.css">
+</head>
+<body>
+	<div class="lunbo-box">
+		<div class="lunboPic" style="left: -590px;">
+			<a href="#" class="lunbo-on">
+				<img src="img/lunbo01.png" alt="1">
+				<p>达沃斯论坛 李克强：中国没搞大规模强刺激</p>
+			</a>
+			<a href="#">
+				<img src="img/lunbo02.png" alt="2">
+				<p>达沃斯论坛 李克强：中国没搞大规模强刺激</p>
+			</a>
+			<a href="#">
+				<img src="img/lunbo01.png" alt="3">
+				<p>达沃斯论坛 李克强：中国没搞大规模强刺激</p>
+			</a>
+			<a href="#">
+				<img src="img/lunbo01.png" alt="4">
+				<p>达沃斯论坛 李克强：中国没搞大规模强刺激</p>
+			</a>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.1.10.2.js"></script>
+	<script type="text/javascript" src="js/jquery.switchPic.js"></script>
+	<script type="text/javascript">
+		$(function () {
+    // banner轮播
+    $(".lunbo-box").switchPic({
+    	intervalTime: 3200
+    });
+});
+</script>
+</body>
+</html>
