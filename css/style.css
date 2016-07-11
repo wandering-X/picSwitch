@@ -1,0 +1,24 @@
+body,div,ul,li,h1,h2,h3,h4,h5,a,p,span,img,input{
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue","Verdana","Arial","Hiragino Sans GB","WenQuanYi Micro Hei","Heiti SC",STHeiti,"Microsoft Yahei",SimSun,sans-serif;
+	font-size: 14px;	
+	text-align: center;
+	border: 0;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #000;
+}
+ul{
+	list-style: none;
+}
+.lunbo-container{
+	width: 1000px;
+	height: 350px;
+	margin-top: 22px;
+}
+.lunbo-box{
+	float: left;
+}
